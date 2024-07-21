@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=VT323&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Agregar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formmod.html">Modificar</a>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+    <div class="container-md">
+        <h1 class="text-center">Modificar</h1><br>  
+        <form action="modificar.php" method="post"> 
+            <div class="form-group">
+                <label for="nombre">ID</label>
+                <input name="id" type="text" class="form-control" id="ID" placeholder="Ingresa el ID">
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input name="fnombre" type="text" class="form-control" id="nombre" placeholder="Ingresa el nombre">
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido</label>
+                <input  name="fapellido" type="text" class="form-control" id="apellido" placeholder="Ingresa el apellido">
+                <br>
+                <button type="submit" value="Modificar Registro" class="btn btn-primary btn-lg btn-block">Cambiar</button>
+                <button type="reset" value="cancelar" class="btn btn-secondary btn-lg btn-block">Cancelar</button>
+        </form>
+    </div>
+</body>
+
+</html>

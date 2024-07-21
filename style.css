@@ -1,0 +1,27 @@
+
+body{
+    background-color: #00b4d8;
+    font-family: 'montserrat', sans-serif;
+    
+}
+.container-md {
+    background-color: #caf0f8;
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    overflow: hidden;
+    margin-top: 100px;
+    border-radius: 20px;
+    
+    
+}
+
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.navbar-expand-lg  {
+  background-color: #0077b6;
+}
